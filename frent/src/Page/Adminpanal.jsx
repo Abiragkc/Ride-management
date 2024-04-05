@@ -285,11 +285,13 @@ console.log(issues_id);
                 </div>
 
 
+
+               
                 <div className="rides_all">
 
                   {ride.map((singleride, index) =>
 
-                    <div key={index} className='f3' >
+                     <div key={index} className='f3' >
                       <Button variant="danger" onClick={() => handleDelete(singleride._id)} >Delete</Button>
                       <h5>{singleride.ridename}</h5>
                       <img className='p1' src={`http://localhost:3000/${singleride.rideimage}`} alt="" />
@@ -297,6 +299,7 @@ console.log(issues_id);
                     </div>
                   )}
                 </div>
+                
               </div> :
               <div className="issues">
               
@@ -320,6 +323,7 @@ console.log(issues_id);
              
                </div>
                  )}
+                 
               </div>
 
 
