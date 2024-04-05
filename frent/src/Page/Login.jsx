@@ -24,7 +24,7 @@ const Login = () => {
           if(res.data.role==="admin"){
             navigator("/admin")
           }else{
-            navigator("/home")
+            navigator("/")
             
           }
         }
