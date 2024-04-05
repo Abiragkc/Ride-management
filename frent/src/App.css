@@ -1,0 +1,73 @@
+.l1{
+  width: 500px;
+}
+.l2{
+ background-color: aquamarine;
+ padding: 300px;
+
+}
+.r1{
+  width: 400px;
+
+}
+.r2{
+  background-color: aquamarine;
+  padding: 300px;
+}
+.mm{
+  width: 100%;
+}
+.p1{
+  height: 150px;
+}
+.p2{
+  display: flex;
+  padding: 100px;
+}
+.p3{
+ 
+  margin-left: 200px;
+}
+
+.a1{
+  display: flex;
+}
+.a2{
+  height: 200px;
+}
+.tr1{
+  width: 450px;
+}
+.tr2{
+  background-color: cornflowerblue;
+  padding: 300px;
+}
+#link{
+  text-decoration: none;
+  color:white;
+}
+.f1{
+  margin-left: 500px;
+}
+.f2{
+ margin-left: 500px;
+ margin-bottom: 200px;
+}
+
+.right_user{
+  display: flex;
+}
+.right_technician{
+  display: flex;
+}
+
+
+.rides_all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90vw;
+}
+.issues{
+  display: flex;
+}
