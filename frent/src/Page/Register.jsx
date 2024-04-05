@@ -65,7 +65,7 @@ const Register = () => {
     </Form>
      </div>
      <div>
-     <Button onClick={()=>handlesubmit("/login")} variant="info">REGISITER</Button>{' '}
+     <Button onClick={()=>handlesubmit("/login")} variant="outline-info">REGISITER</Button>{' '}
      <Button variant="outline-primary" onClick={()=>navigator("/login")} >GO LOGIN </Button>
      </div>
     </div>
